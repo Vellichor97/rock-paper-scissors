@@ -4,25 +4,38 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="container">
-    <div class="title">Rock Paper Scissors</div>
-  </div>
+    <div class="title-container">
+      <div class="title">Rock Paper Scissors</div>
+    </div>
     <div class="game">
       <div class="winner">You won!</div>
-      <div class="explanation">Scissors beats paper</div>
+      <div class="explanation">Scissors beats paper.</div>
       <div class="choices">
-        <div class="player-choice"></div>
-        <div class="computer-choice"></div>
-      </div>
-      <div class="choice-buttons">
-        <button>Rock</button>
-        <button>Paper</button>
-        <button>Scissors</button>
+        <div class="player-container">
+          <div class="player-choice">Scissors</div>
+          <div class="player-info">Player: 0</div>
+        </div>
+        <div class="versus">vs</div>
+        <div class="computer-container">
+          <div class="computer-choice">Paper</div>
+          <div class="computer-info">Computer: 0</div>
+        </div>
+        </div>
+      <div class="button-choices">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
       </div>
     </div>
-  <div class="foooter">Copyright &#169 Vellichor</div>
+    <div class="footer-container">
+      <div class="footer">Copyright &#169 Vellichor</div>
+    </div>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>
