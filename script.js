@@ -1,16 +1,17 @@
 
-const winner = document.getElementsByClassName('winner')[0];
-const explanation = document.getElementsByClassName('explanation')[0];
+const winner = document.querySelector('.winner');
+const explanation = document.querySelector('.explanation');
 
-const playerInfo = document.getElementById('player-info');
-const computerInfo = document.getElementById('computer-info');
+const playerInfo = document.querySelector('#player-info');
+const computerInfo = document.querySelector('#computer-info');
 
-const player = document.getElementsByClassName('choice')[0];
-const computer = document.getElementsByClassName('choice')[1];
+const players = document.querySelectorAll('.choice');
+const player = players[0];
+const computer = players[1];
 
-const rockButton = document.getElementById('rock');
-const paperButton = document.getElementById('paper');
-const scissorsButton = document.getElementById('scissors');
+const rockButton = document.querySelector('#rock');
+const paperButton = document.querySelector('#paper');
+const scissorsButton = document.querySelector('#scissors');
 
 let playerScore = 0;
 let computerScore = 0;
