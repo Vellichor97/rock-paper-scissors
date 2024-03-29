@@ -15,17 +15,17 @@
     padding: 30px 0px;
     display: flex;
     justify-content: center;
-    background-color: #222831;
+    background-color: #27374D;
 }
 
 .title {
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 700;
-    color: #EEEEEE;
+    color: #DDE6ED;
 }
 
 .game {
-    background-color:#00ADB5;
+    background-color:#526D82;
     padding: 30px 0px;
     display: flex;
     flex-direction: column;
@@ -70,11 +70,13 @@
     min-width: 100px;
     min-height: 35px;
     text-align: center;
-    background-color: #c6c1c1;
+    background-color: #9DB2BF;
+    border-style: solid;
+    border-color: #526D82;
 }
 
 .versus {
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 700;
     color: rgb(145, 52, 52);
 }
@@ -97,19 +99,21 @@ button {
     font-size: 30px;
     font-weight: 700;
     min-width: 200px;
-    background-color: #647081;
-    border-style: groove;    
+    background-color: #9DB2BF;
+    border-style: solid;
+    border-color: #27374D;
+    border-width: 3px;    
 }
 
 button:hover {
-    background-color: #EEEEEE;
+    background-color: #DDE6ED;
 }
 
 .footer-container {
-    background-color: #393E46;
+    background-color: #27374D;
 }
 .footer {
     font-size: 20px;
     font-weight: 500px;
-    color: #EEEEEE;
+    color: #DDE6ED;
 }
